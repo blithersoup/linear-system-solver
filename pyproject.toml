@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65.5.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solverlib"
+version = "0.0.1"
+authors = [
+  { name="Grady Arnold", email="gradyarnold11@gmail.com" },
+]
+description = "Jacobi and Gauss-Seidel linear solving in Python"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "Pytest>=7.4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/blithersoup/linear-system-solver"
+"Bug Tracker" = "https://github.com/blithersoup/linear-system-solver/issues"
+
