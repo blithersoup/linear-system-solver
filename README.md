@@ -1,4 +1,4 @@
-# regression-lib
+# linear-system-solver
 
 ## About
 
