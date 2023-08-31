@@ -4,10 +4,9 @@
 
 This is a CPython library for solving linear systems of equations with the Jacobi iteration method and the Gauss-Seidel method.  The library 
 consists of two member functions that take in two lists A and b and finds the solution x to Ax = b.  Given the nature of the algorithms, a solution
-can only be found if the matrix is diagonally dominant() with no diagonal zeroes.  There seems to be a 
-[way](https://cdn.web.uta.edu/-/media/project/website/science/mathematics/documents/preprint/2014/rep2014_18.ashx) 
-to determine if a matrix is possibly diagonalizably dominant and transform it from one that is not initially, but for this project all inputs must 
-be diagonally dominant.  The algorithms are implemented in C and use CPython to wrap the functions into a python library.
+can only be found if the matrix is diagonally dominant() with no diagonal zeroes.  There seems to be a way to determine if a matrix is possibly 
+diagonalizably dominant and transform it from one that is not initially, but for this project all inputs must be diagonally dominant.  The 
+algorithms are implemented in C and use CPython to wrap the functions into a python library.
 
 ## Code
 
@@ -92,5 +91,3 @@ print([round(b, 2) for b in y])
 [Jacobi Method- Wikipedia](https://en.wikipedia.org/wiki/Jacobi_method)
 
 [Gauss-Seidel Method- Wikipedia](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)
-
-[Self-Corrective Algorithms for Generalized Diagonally Dominant Matrices- L. Guan et al.](https://cdn.web.uta.edu/-/media/project/website/science/mathematics/documents/preprint/2014/rep2014_18.ashx)
